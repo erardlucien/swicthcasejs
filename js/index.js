@@ -7,6 +7,7 @@ const PADDING = '2.2rem 3.5rem';
 let container = document.querySelector('.container');
 let inputText = document.createElement('input');
 inputText.type = 'text';
+inputText.placeholder = 'Write a name';
 inputText.style.backgroundColor = 'rgb(223, 223, 223)';
 inputText.style.color = 'rgb(13, 13, 12)';
 inputText.style.fontFamily = 'serif';
