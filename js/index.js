@@ -39,17 +39,17 @@ function clearTextContent(element) {
 inputText.addEventListener('keyup', (event) => {
     let inputTextValue = inputText.value;
 
-    if (event.code === 'Enter') {
+    if (event.key === 'Enter') {
         text.style.padding = PADDING;
         switch (inputTextValue) {
             case 'Thomas':
-                text.textContent = ( GREETING + inputTextValue + '! ' + (1) );
+                text.textContent = (GREETING + inputTextValue + '! ' + (1));
                 break;
             case 'Ingrid':
-                text.textContent = ( GREETING + inputTextValue + '! ' + (2) );
+                text.textContent = (GREETING + inputTextValue + '! ' + (2));
                 break;
             case 'Boris':
-                text.textContent = ( GREETING + inputTextValue + '! ' + (3) );
+                text.textContent = (GREETING + inputTextValue + '! ' + (3));
                 break;
             default:
                 clearTextContent(text);
