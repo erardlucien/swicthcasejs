@@ -28,8 +28,8 @@ text.classList.add('text');
 text.style.color = 'skyblue';
 text.style.backgroundColor = 'grey';
 text.style.fontSize = inputText.style.fontSize = '1.5rem';
-container.appendChild(inputText);
 container.appendChild(text);
+container.appendChild(inputText);
 
 function clearTextContent(element) {
     element.textContent = '';
