@@ -1,6 +1,6 @@
 
 'use strict';
-const GREETING = 'Willkommen ';
+const GREETING = 'Welcome ';
 const RESETOFFSSET = '0 0 0 0';
 const PADDING = '2.2rem 3.5rem';
 
@@ -52,7 +52,7 @@ inputText.addEventListener('keyup', (event) => {
                 text.textContent = (GREETING + inputTextValue + '! ' + (3));
                 break;
             default:
-                clearTextContent(text);
+                text.textContent = 'The name is unknow!';
                 break;
         }
     } else {
