@@ -55,8 +55,5 @@ inputText.addEventListener('keyup', (event) => {
                 text.textContent = 'The name is unknow!';
                 break;
         }
-    } else {
-        clearTextContent(text);
     }
-
 });
