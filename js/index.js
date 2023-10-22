@@ -38,6 +38,7 @@ function clearTextContent(element) {
 
 inputText.addEventListener('keyup', (event) => {
     let inputTextValue = inputText.value;
+    inputTextValue = inputTextValue.split(' ')[0];
 
     if (event.key === 'Enter') {
         text.style.padding = PADDING;
